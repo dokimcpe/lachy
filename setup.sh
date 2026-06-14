@@ -42,7 +42,7 @@ cp -r "$MC_DATA_PATH/data" ~/mc/data
 echo "=== Paso 3: Configurando el Launcher ==="
 if [ ! -d ~/lachy-launcher ]; then
     echo "Clonando repositorio de Lachy-Launcher..."
-    git clone https://github.com/Lachy-Launcher/Lachy-Launcher.git ~/lachy-launcher
+    git clone https://github.com/ry-diffusion/Lachy-Launcher ~/lachy-launcher
 fi
 
 cd ~/lachy-launcher
