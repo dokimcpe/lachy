@@ -38,6 +38,7 @@ sudo apt-get install -y \
     libxext-dev:i386 gcc-multilib build-essential \
     libwayland-dev:i386 libxkbcommon-dev:i386 \
     libxinerama-dev:i386 libxcursor-dev:i386 libxrandr-dev:i386 \
+    libgl1-mesa-glx:i386 libgl1-mesa-dri:i386 \
     unzip git
 
 echo "=== Paso 2: Preparando la carpeta del juego híbrida (~/mc) ==="
