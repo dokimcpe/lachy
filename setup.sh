@@ -101,6 +101,9 @@ echo "Para jugar, ejecuta: "
 echo "cd ~/lachy-launcher"
 if [ "$NON_WSL" = true ]; then
     echo "./build/mcpelauncher-client/mcpelauncher-client -dg ~/mc"
+    echo ""
+    echo "Si ves 'Failed to initialize OpenGL loader!', probá con:"
+    echo "LIBGL_ALWAYS_SOFTWARE=1 ./build/mcpelauncher-client/mcpelauncher-client -dg ~/mc"
 else
     echo "WAYLAND_DISPLAY=\"\" ./build/mcpelauncher-client/mcpelauncher-client -dg ~/mc"
 fi
